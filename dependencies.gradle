@@ -1,0 +1,69 @@
+ext {
+    //Android
+    androidBuildToolsVersion     = "29.0.2"
+    androidMinSdkVersion         = 21
+    androidTargetSdkVersion      = 29
+    androidCompileSdkVersion     = 29
+
+    appCompatVersion             = '1.1.0'
+    coreKtxVersion               = '1.1.0'
+    lifecycleExtensionsVersion   = '2.1.0'
+    savedStateViewmodelVersion   = '1.0.0-rc03'
+    pagingVersion                = '2.1.1'
+    fragmentKtxVersion           = '1.1.0'
+    constraintLayoutVersion      = '1.1.3'
+    lifecycleKtxVersion          = '2.1.0'
+    firebaseVersion              = '17.2.1'
+    firebasePerfVersion          = '19.0.3'
+    crashlyticsVersion           = '2.10.1'
+    yandexMapkitVersion          = '3.4.0'
+    roomVersion                  = '1.1.1'
+    daggerVersion                = '2.25.4'
+    materialVersion              = '1.1.0'
+    flexboxVersion               = '2.0.1'
+    rxJavaVersion                = '2.2.17'
+    rxAndroidVersion             = '2.1.1'
+    navigationFragmentVersion    = '2.1.0'
+    navigationUiVersion          = '2.1.0'
+    guavaVersion                 = '28.1-android'
+    glideVersion                 = '4.11.0'
+    googlePlayServicesVersion    = '17.0.0'
+    recyclerViewVersion          = '1.1.0'
+    viewPagerVersion             = '1.0.0'
+    browserVersion               = '1.2.0'
+    commonTypesVersion           = '1.4.1'
+    authApiVersion               = '3.2.0'
+    otpApiVersion                = '1.0.2'
+    classifiedModelJavaVersion   = '1.130.0'
+    mortgageApiVersion           = '0.34.2'
+    ioGrpcVersion                = '1.27.2'
+
+    jodaTimeVersion              = '2.10.3'
+    securePreferenceVersion      = '0.1.3'
+
+    // Test
+    junitVersion                 = '4.12'
+    androidXJunitVersion         = '1.1.1'
+    espressoCoreVersion          = '3.2.0'
+    mockitoVersion               = '2.25.0'
+    uiAutomatorVersion           = '2.2.0'
+    testRulesVersion             = '1.2.0'
+    testOrchestratorVersion      = '1.2.0'
+
+    dependencies = [
+            // Dagger
+            dagger:                     "com.google.dagger:dagger:${daggerVersion}",
+            daggerCompiler:             "com.google.dagger:dagger-compiler:${daggerVersion}"
+    ]
+
+    testDependencies = [
+            junit:                    "junit:junit:$junitVersion",
+            androidXJunit:            "androidx.test.ext:junit:$androidXJunitVersion",
+            espressoCore:             "androidx.test.espresso:espresso-core:$espressoCoreVersion",
+            mockitoCore:              "org.mockito:mockito-core:$mockitoVersion",
+            mockitoAndroid:           "org.mockito:mockito-android:$mockitoVersion",
+            uiAutomator:              "androidx.test.uiautomator:uiautomator:$uiAutomatorVersion",
+            testRules:                "androidx.test:rules:$testRulesVersion",
+            testOrchestrator:         "androidx.test:orchestrator:$testOrchestratorVersion"
+    ]
+}

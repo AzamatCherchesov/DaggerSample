@@ -1,2 +1,8 @@
 rootProject.name='Dagger2Sample'
 include ':app'
+include ':core'
+include ':coreui'
+include ':featurea'
+include ':featureb'
+include ':middlewarea'
+include ':middlewareb'
